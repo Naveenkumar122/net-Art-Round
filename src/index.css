@@ -12,7 +12,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: 45vw;
 }
 
 #section1{
@@ -102,7 +102,7 @@ span{
   pointer-events: none;
 }
 @media (max-width: 800px){ 
-    h1,p {
+    h1,p,h3 {
       font-size: 11px;
     }
     #contact-details {
@@ -123,8 +123,11 @@ span{
     }
 }
 @media (max-width: 600px){ 
+  h1,p,h3 {
+    font-size: 7.9px;
+  }
   #trophy img{
-    margin-top: 20vh;
+    margin-top: 10vh;
   }
   #contact-details p{
     font-size:2vmin;
@@ -132,8 +135,11 @@ span{
 }
 
 @media (max-width: 400px){ 
+  h1,p,h3 {
+    font-size: 2vmin;
+  }
   #trophy img{
-    margin-top: 30vh;
+    margin-top: 15vh;
   }
   
 }
