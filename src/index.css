@@ -121,7 +121,6 @@ span{
     height: auto;
     background-color: crimson;
     display: flex;
-    flex-direction: column;
   }
 }
 code {
