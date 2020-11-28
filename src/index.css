@@ -37,8 +37,8 @@ body {
   height: auto;
 }
 
-#info h1,p{
-  font-size: 15px;
+h1,h4,p{
+  font-size: 2vmin;
   height:auto;
 }
 
