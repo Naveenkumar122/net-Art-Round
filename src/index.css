@@ -99,8 +99,11 @@ span{
   pointer-events: none;
 }
 @media (max-width: 1080px){ 
+    body{
+      height:auto;
+    }
     h1,p {
-      font-size: 5px;
+      font-size: 7.5px;
     }
     #contact-details {
       width: 100vw;
