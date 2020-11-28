@@ -79,11 +79,14 @@ hr{
   margin-left: auto;
   margin-right: auto;
 } 
+
 span{
   text-align: center;
   color: crimson;
 }
 #contact-details {
+  margin-left: auto;
+  margin-right: auto;
   width: 97vw;
   height: 10vw;
   background-color: crimson;
@@ -100,13 +103,13 @@ span{
 }
 @media (max-width: 800px){ 
     h1,p {
-      font-size: 10px;
+      font-size: 11px;
     }
     #contact-details {
       margin-left: auto;
       margin-right: auto;
       width: 97vw;
-      height: auto;
+      height: 10vw;
       background-color: crimson;
       display: flex;
     }
@@ -115,7 +118,26 @@ span{
       color:white;
       display: flex;
     }
+    #trophy img{
+      margin-top:10vh;
+    }
 }
+@media (max-width: 600px){ 
+  #trophy img{
+    margin-top: 20vh;
+  }
+  #contact-details p{
+    font-size:2vmin;
+  }
+}
+
+@media (max-width: 400px){ 
+  #trophy img{
+    margin-top: 30vh;
+  }
+  
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
