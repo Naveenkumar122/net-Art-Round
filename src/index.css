@@ -98,12 +98,9 @@ span{
   height: 2.5vmin;
   pointer-events: none;
 }
-@media (max-width: 1080px){ 
-    body{
-      height:auto;
-    }
+@media (max-width: 800px){ 
     h1,p {
-      font-size: 7.5px;
+      font-size: 10px;
     }
     #contact-details {
       width: 100vw;
