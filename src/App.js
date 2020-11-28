@@ -36,8 +36,9 @@ class App extends Component {
              <hr/>
           </div>
           <div id="footer">
-             <h1 style={{textAlign: "center"}}>C.R.I. FLUID SYSTEMS PRODUCTS CATER TO DIVERSE SEGMENTS</h1>
+             <h4 style={{textAlign: "center"}}>C.R.I. FLUID SYSTEMS PRODUCTS CATER TO DIVERSE SEGMENTS</h4>
              <p>CHEMICALS & PROCESS <span>|</span> POWER <span>|</span> WATER & WASTE WATER<span> |</span> OILS & GAS <span>|</span> PHARMA SUGARS & DISTILLERIES <span>|</span> PAPER & PULP <span>|</span> MARINE & DEFENCE <span>|</span> METAL & MINING <span>|</span> FOOD & BEVERAGE <span>|</span> PETROCHEMICAL & REFINERIES <span>|</span> SOLAR <span>|</span> BUILDING <span>|</span> HVAC <span>|</span> FIRE FIGHTING <span>|</span> AGRICULTURE & RESIDENTIAL</p>
+             <br/>
              <div id="contact-details">
                  <p><img src="./asserts/phone-call.svg" alt=""/>Toll free 1800-200-1234</p>
                  <p><img src="./asserts/facebook.svg" alt=""/>www.facebook.com/cripumps</p>
