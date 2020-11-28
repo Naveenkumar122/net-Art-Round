@@ -115,14 +115,6 @@ span{
       display: flex;
     }
 }
-@media screen and (max-device-width: 2340px) and (orientation: landscape){
-  #contact-details {
-    width: 100vw;
-    height: auto;
-    background-color: crimson;
-    display: flex;
-  }
-}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
